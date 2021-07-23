@@ -1,4 +1,19 @@
-.App {
+body {
+  background: -webkit-radial-gradient(center, circle, rgba(0, 150, 150, 1) 20%, rgba(0,0,0,1));
+  background: -moz-radial-gradient(center, circle, rgba(0, 150, 150, 1) 20%, rgba(0,0,0,1));
+  background: -ms-radial-gradient(center, circle, rgba(0, 150, 150, 1) 20%, rgba(0,0,0,1));  
+  background: -o-radial-gradient(center, circle, rgba(0, 150, 150, 1) 20%, rgba(0,0,0,1)); 
+  background: radial-gradient(center, circle, rgba(0, 150, 150, 1) 20%, rgba(0,0,0,1));
+}
+
+#container {
+  width: 850px;
+  height: 510px;
+  margin: 100px auto 40px;
+  text-align: center;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +50,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

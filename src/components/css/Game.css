@@ -1,0 +1,9 @@
+#game {
+    background: black;
+    margin: 20px auto 40px;
+    position: relative;
+    border: 15px solid rgba(50,50,50,1);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.5), 0 -5px 20px rgba(0,0,0,.3);
+}
+

@@ -1,0 +1,46 @@
+.top-controls {
+    position: relative;
+    margin: 0 auto;
+    min-width: 300px;
+    height: 50px;
+    background: rgba(60,60,60,1);
+    position: absolute;
+    text-align: left;
+    padding-bottom: 10px;
+    top: -75px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-right: 3px solid rgba(50,50,50,1);
+    border-left: 3px solid rgba(50,50,50,1);
+    border-top: 3px solid rgba(50,50,50,1);
+    box-shadow: 0 -5px 20px rgba(0,0,0,.3);
+}
+
+.control-button {
+    background: rgba(20,20,20, 1);
+    color: white;
+    font-size: 1.1rem;
+    position: relative;
+    display: inline-block;
+    top: 12px;
+    left: 10px;
+    margin: 0 3px;
+    padding: 10px 15px;
+    border: 1px solid rgba(0,140,130, 1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.control-button:focus {
+    outline: 3px solid rgba(0,140,130, 1);
+    border-radius: 10px;
+}
+
+.generations {
+    position: relative;
+    left: 255px;
+    bottom: 20px;
+    color: rgba(230, 230, 230, 1);
+    font-size: 1.3rem;
+}
+

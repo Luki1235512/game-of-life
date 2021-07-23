@@ -1,19 +1,20 @@
 import React from 'react';
+import'./css/TopPanel.css';
 
 class TopPanel extends React.Component {
     
     pauseGame() {
-        this.props.pauseGame();
+        this.props.pauseGame()
     }
 
     runGame() {
         if (this.props.aliveCount > 0) {
-            this.props.runGame();
+            this.props.runGame()
         }
     }
 
     clearBoard() {
-        this.props.clearBoard(true);
+        this.props.clearGame(true)
     }
 
     render() {
@@ -35,3 +36,5 @@ class TopPanel extends React.Component {
     }
 
 }
+
+export default TopPanel
